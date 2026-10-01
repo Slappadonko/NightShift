@@ -1,0 +1,17 @@
+:root{--bg:#0d1016;--panel:#161b24;--edge:#2a3242;--cream:#f2e8d5;--dim:#8f97a6;--amber:#ffb547}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--cream);font:17px/1.6 "Oswald","Arial Narrow",system-ui,sans-serif;font-weight:300}
+.wrap{max-width:860px;margin:0 auto;padding:32px 18px 64px}
+a{color:var(--amber)}
+h1,h2{font-weight:700;letter-spacing:.01em;line-height:1.1}
+h1{font-size:clamp(2.2rem,7vw,3.6rem);margin:.2em 0}
+h2{font-size:1.6rem;margin-top:2em}
+.call{font-family:"VT323",monospace;color:var(--amber);font-size:1.4rem;letter-spacing:.08em}
+.banner{width:100%;border-radius:10px;border:1px solid var(--edge)}
+.shots{display:flex;gap:14px;flex-wrap:wrap}
+.shots img{width:calc(50% - 7px);border-radius:10px;border:1px solid var(--edge)}
+.stores{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}
+.stores a{display:inline-block;padding:10px 16px;border:1px solid var(--amber);border-radius:8px;text-decoration:none;font-weight:500}
+.dim{color:var(--dim)}
+footer{margin-top:48px;color:var(--dim);font-size:15px;border-top:1px solid var(--edge);padding-top:16px}
+main p,main li{max-width:68ch}
